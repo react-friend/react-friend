@@ -1,4 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App.jsx";
-ReactDOM.render(<App />, document.getElementById("root"));
+import ReactFriendArea from './wrappers/ReactFriendArea';
+import ReactFriendInteractable from './wrappers/ReactFriendIneteractable';
+import './styles/default.css';
+
+
+export { ReactFriendArea, ReactFriendInteractable };
+
+export default { ReactFriendArea, ReactFriendInteractable };

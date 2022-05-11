@@ -4,7 +4,7 @@
   "description": "Wrappers to interact with react-friend from external application",
   "main": "index.jsx",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "open-cli http://localhost:3001/ && webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "author": "Bryce Rummler",
@@ -16,14 +16,18 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "open-cli": "^7.0.1",
     "style-loader": "^0.23.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.11.3"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-hot-loader": "^4.3.11"
+    "react-hot-loader": "^4.3.11",
+    "react-redux": "^8.0.1",
+    "redux": "^4.2.0"
   }
 }

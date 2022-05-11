@@ -1,0 +1,18 @@
+.react-friend-area {
+  margin: 0;
+  display: flow-root;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.react-friend-interactable {
+  margin: 0;
+  display: flow-root;
+}
+
+/* for dev */
+.wrapper-visualizer {
+  border: 1px solid red;
+  background-color:floralwhite;
+}
