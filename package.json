@@ -1,0 +1,11 @@
+{
+  "name": "react-friend-wrappers",
+  "version": "1.0.0",
+  "description": "Wrappers to interact with react-friend from external application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Bryce Rummler",
+  "license": "ISC"
+}
