@@ -1,13 +1,14 @@
 import React, { Component} from "react";
 import {hot} from "react-hot-loader";
 import "./App.css";
-import { ReactFriendArea, ReactFriendInteractable } from '../src/index';
+import { ReactFriend, ReactFriendArea, ReactFriendInteractable } from '../src/index';
 
 class App extends Component{
   render(){
     return(
       <ReactFriendArea>
         <div className="App">
+          <ReactFriend />
           <div className="sample-content">
             <div class="content-item">
               <ReactFriendInteractable>

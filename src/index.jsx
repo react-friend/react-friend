@@ -1,8 +1,9 @@
+import ReactFriend from './ReactFriend';
 import ReactFriendArea from './wrappers/ReactFriendArea';
 import ReactFriendInteractable from './wrappers/ReactFriendIneteractable';
 import './styles/default.css';
 
 
-export { ReactFriendArea, ReactFriendInteractable };
+export { ReactFriend, ReactFriendArea, ReactFriendInteractable };
 
-export default { ReactFriendArea, ReactFriendInteractable };
+export default { ReactFriend, ReactFriendArea, ReactFriendInteractable };
